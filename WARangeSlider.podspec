@@ -7,17 +7,17 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "WARangeSlider"
-  s.version      = "1.1.1"
+  s.name         = "WARangeSliderForDK"
+  s.version      = "1.1.2"
   s.summary      = "A simple range slider made in Swift"
 
   s.description  = "This pod provides a simple range slider."
 
-  s.homepage     = "https://github.com/warchimede/RangeSlider"
+  s.homepage     = "https://github.com/ag-drivequant/RangeSlider"
 
   s.license      = "MIT"
   s.author             = { "William Archimede" => "william.archimede@hoodbrains.com" }
-  s.source       = { :git => "https://github.com/warchimede/RangeSlider.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ag-drivequant/RangeSlider.git", :branch => 'WARangeSliderForDK' }
   s.social_media_url = 'https://twitter.com/warchimede'
 
   s.platform     = :ios, '12.0'
